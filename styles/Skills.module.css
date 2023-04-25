@@ -1,0 +1,199 @@
+.skills {
+  background-color: #2c2c2c;
+  height: 80vh;
+  padding: 20px;
+  width: 100%;
+}
+.skillsTitle {
+  color: #fff;
+  height: fit-content;
+  margin: 25px 0 0 10%;
+  width: fit-content;
+  border-bottom: 4px solid #ffb633;
+}
+.SkillsSec {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+.left,
+.right {
+  position: relative;
+  width: 40%;
+  margin-top: 30px;
+}
+.right h2,
+.left h2 {
+  position: absolute;
+  top: -25px;
+  left: 40px;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 500;
+  background-color: #2c2c2c;
+  text-shadow: 0 0 4px #ffb633, 0 0 11px #ffb633, 0 0 19px #ffb633,
+    0 0 4px #ffb633, 0 0 8px #ffb633, 0 0 9px #ffb633, 0 0 10px #ffb633,
+    0 0 15px #ffb633;
+}
+.left ul,
+.right ul {
+  box-shadow: 0 0 4px #ffb633, 0 0 11px #ffb633, 0 0 19px #ffb633,
+    0 0 4px #ffb633, 0 0 8px #ffb633, 0 0 9px #ffb633, 0 0 10px #ffb633,
+    0 0 15px #ffb633;
+  padding: 40px 0;
+  text-align: center;
+  height: 50vh;
+  list-style-type: none;
+  color: #fff;
+  font-size: 22px;
+}
+.left ul li,
+.right ul li {
+  padding: 6px;
+  padding-left: 20px;
+}
+.header {
+  margin: 1vh auto 2vh;
+  height: 9vh;
+  width: 100%;
+  padding: 0 3%;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 15px 10px -10px;
+}
+.logo {
+  padding: 10px;
+  font-size: 34px;
+  font-weight: bold;
+  color: #444444;
+  width: 10%;
+}
+.items {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+.icons {
+  display: flex;
+  margin: 20px 10px;
+  width: 70px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.pages {
+  width: 70%;
+  height: 100%;
+}
+.icons svg {
+  cursor: pointer;
+  position: relative;
+}
+.pages ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.headerPagesActive {
+  color: #09974f;
+  font-weight: bold;
+}
+.iconsItem {
+  position: relative;
+}
+
+.iconsItem p {
+  position: absolute;
+  top: -15px;
+  font-size: 8px;
+  text-align: center;
+  right: -5px;
+  background-color: red;
+  color: #fff;
+  padding: 1px;
+  font-weight: bold;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+.shop {
+  padding-top: 10px;
+}
+.headerPages,
+.headerPagesList {
+  width: fit-content;
+  font-size: 20px;
+  height: 100%;
+  cursor: pointer;
+  font-weight: 500;
+  display: flex;
+  padding: 2.2vh;
+  margin: 0%;
+  position: relative;
+  transition: all ease-in-out 0.5s;
+}
+.headerPagesList:hover > .listComponents {
+  display: flex;
+  height: fit-content;
+}
+.headerPagesList > .listComponents {
+  height: 0;
+  background-color: #09974f;
+  color: #fff;
+  position: absolute;
+  justify-content: space-between;
+  bottom: -330px;
+  z-index: 1000;
+  width: 600px;
+  padding: 15px 30px;
+  border-radius: 4px;
+  display: none;
+  left: -80px;
+  transition: all 0.5s ease-in-out;
+}
+.listComponents ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  color: #ddd;
+}
+.listComponents ul li:hover {
+  color: #fff;
+}
+.listComponents h5 {
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 5px;
+}
+.listComponents ul li {
+  margin: 2px;
+  font-size: 12px;
+}
+.listComponents ul li:hover {
+  background-color: #fff;
+  color: #09974f;
+}
+.pages ul li:hover {
+  background-color: #09974f;
+  color: #fff;
+}
+.imgLogo {
+  width: 50px;
+  height: 50px;
+  margin-top: -10px;
+  mix-blend-mode: multiply;
+}
+/* @media screen and (min-width: 800px) {
+
+} */
+@media only screen and (max-width: 800px) {
+  .icons {
+    display: none;
+  }
+}

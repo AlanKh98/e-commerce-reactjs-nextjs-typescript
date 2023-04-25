@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,500;0,600;1,500&family=PT+Sans+Narrow&family=Playfair+Display:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,500;0,600;1,500&family=Lobster&family=PT+Sans+Narrow&family=Playfair+Display:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+.contact {
+  font-family: "Playfair Display", serif;
+}
+
+.firstSection {
+  height: 300px;
+  background-image: url("/daniel.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 80vh;
+  width: 100%;
+  margin: 0 auto;
+}
+.firstSectionColor {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: relative;
+  /* color: #fff; */
+  color: #09974f;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.svgEdited {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  transform: rotate(180deg);
+  font-weight: bold;
+  cursor: pointer;
+  top: 10px;
+  left: 10px;
+}
+.titleContainer {
+  padding: 10px 40px;
+  border: 4px solid #09974f;
+  font-weight: 500;
+  width: fit-content;
+  margin: 0 auto;
+}
+/* Section Two */
+.secondSection {
+  text-align: center;
+  margin: 5% 0;
+  width: 100%;
+}
+.secondSection h1 {
+  margin-top: 4%;
+  color: #09974f;
+}
+.contactItemsContainer {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  margin: 20px auto;
+  padding: 20px;
+}
+.contactItems {
+  padding: 20px 40px;
+  text-align: center;
+  width: 30%;
+}
+.contactItems h3 {
+  color: #09974f;
+  font-size: 28px;
+}
+.contactItems h4 {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+.contactItems:nth-child(2) {
+  border-left: 4px solid #09974f;
+  border-right: 4px solid #09974f;
+}
+.svgContact {
+  color: #09974f;
+  width: 60px;
+  height: 60px;
+}
+.sendMessageContainer {
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 5%;
+}
+.sendMessageContainer h2 {
+  font-family: "Playfair Display", serif;
+  /* font-family: "PT Sans Narrow", sans-serif; */
+}
+.textInCon {
+  display: flex;
+  flex-direction: column;
+}
+.textInCon input::placeholder,
+.textInCon textarea::placeholder {
+  font-size: 18px;
+  padding-top: 5px;
+  padding-left: 20px;
+}
+.textInCon input,
+.textInCon textarea {
+  font-size: 18px;
+  width: 100%;
+  height: 55px;
+  margin: 20px;
+  outline: none;
+  border: none;
+  background-color: rgb(226, 226, 226);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.textInCon textarea {
+  height: 220px;
+}
+.sendMessagebtn {
+  width: 200px;
+  padding: 10px 20px;
+  background-color: #09974f;
+  color: #fff;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  outline: none;
+  border: 2px solid #09974f;
+  font-size: 16px;
+}
+.howToCon {
+  display: flex;
+  padding: 20px 40px;
+}
+.leftSec {
+  padding: 10px 40px;
+  width: 50%;
+  text-align: left;
+}
+.rightSec {
+  margin: 0 auto;
+  width: 45%;
+  position: relative;
+}
+.rightSec img {
+  width: 90%;
+  position: sticky;
+  top: 50px;
+}
+.subText,
+.mainText {
+  color: gray;
+  font-size: 18px;
+}
+.mainText {
+  font-size: 22px;
+}

@@ -1,0 +1,24 @@
+.header {
+  width: 100%;
+  height: 8vh;
+  display: flex;
+  justify-content: space-between;
+  z-index: 9999;
+}
+.logo {
+  width: 30px;
+  height: 30px;
+  background-color: rgb(255, 213, 0);
+}
+.shortcuts {
+  display: flex;
+  flex-direction: row;
+  z-index: 9999;
+
+  justify-content: space-between;
+}
+.shortcuts li {
+  list-style: none;
+  padding: 5px 20px;
+  font-size: 22px;
+}
