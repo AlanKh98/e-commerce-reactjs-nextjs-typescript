@@ -15,7 +15,7 @@ const Itemimg = (props) =>{
     }
     return(
         <div className={styles.imgItem} >
-            <img className={styles.imgCenter} src={"/"+props.src} alt={props.alt} onClick={() =>goToView()}/>
+            <img className={styles.imgCenter} src={props.src} alt={props.alt} onClick={() =>goToView()}/>
             <ItemPrice title={props.title} price={props.price} id={props.id}/>
         </div>
     )
