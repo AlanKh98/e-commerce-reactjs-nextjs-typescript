@@ -59,7 +59,7 @@ const Caro = ()=> {
         >
         {
             LatestCarousel.map((it,i) => (
-              <ItemLatest key={i} id={it.id} title={it.title} price={it.price} src={it.src} alt={it.alt} />
+              <ItemLatest key={i} id={it.id} title={it.title} price={it.price} src={"/"+it.src} alt={it.alt} />
             ))
         }
       </ItemCarousel>

@@ -54,7 +54,7 @@ const Caro = (props:Props)=> {
         {
             Data.filter(it => it.type==props.itemType)
             .map((it,i) => (
-              <ItemLatest key={i} id={it.id} title={it.title} price={it.price} src={it.src} alt={it.alt} />
+              <ItemLatest key={i} id={it.id} title={it.title} price={it.price} src={"/"+it.src} alt={it.alt} />
             ))
         }
       </ItemCarousel>
