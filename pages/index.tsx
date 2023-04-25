@@ -139,12 +139,12 @@ export default function Home() {
           dotListClass="custom-dot-list-style"
           itemClass="carousel-item-padding-40-px"
         >
-          <ItemLatest id="1" type="Cloth" title='The North Face Nuptse cropped down jacket' price='240.99'  src="/jacket.png" alt="item 4" />
-          <ItemLatest id="2" type="Cloth" title='Fila onion quilted puffer jacket with logo' price='240.99'  src="/jacket1.png" alt="item 5" />
-          <ItemLatest id="3" type="Cloth" title='The North Face Gosei lightweight puffer jacket' price='240.99'  src="/jacket2.png" alt="item 6" />
-          <ItemLatest id="4" type="Cloth" title='Barney Originals Clara real leather jacket' price='240.99'  src="/jacket3.png" alt="item 8" />
-          <ItemLatest id="5" type="Cloth" title='Barbour International Polarquilt classic jacket' price='240.99'  src="/jacket4.png" alt="item 1" />
-          <ItemLatest id="6" type="Cloth" title='adidas Originals slim trefoil puffer jacket in black' price='240.99'  src="/jacket5.png" alt="item 2" />
+          <ItemLatest id="1" type="Cloth" title='The North Face Nuptse cropped down jacket' price='240.99'  src="jacket.png" alt="item 4" />
+          <ItemLatest id="2" type="Cloth" title='Fila onion quilted puffer jacket with logo' price='240.99'  src="jacket1.png" alt="item 5" />
+          <ItemLatest id="3" type="Cloth" title='The North Face Gosei lightweight puffer jacket' price='240.99'  src="jacket2.png" alt="item 6" />
+          <ItemLatest id="4" type="Cloth" title='Barney Originals Clara real leather jacket' price='240.99'  src="jacket3.png" alt="item 8" />
+          <ItemLatest id="5" type="Cloth" title='Barbour International Polarquilt classic jacket' price='240.99'  src="jacket4.png" alt="item 1" />
+          <ItemLatest id="6" type="Cloth" title='adidas Originals slim trefoil puffer jacket in black' price='240.99'  src="jacket5.png" alt="item 2" />
 
         </ItemCarousel>
       </div>
@@ -173,8 +173,8 @@ export default function Home() {
           dotListClass="custom-dot-list-style"
           itemClass="carousel-item-padding-40-px"
         >
-          <ItemLatest id="7"  type="Shirt" title='Topshop cotton casual shirt in ivory' price='240.99' src="/shirt.jpeg" alt="item 4" />
-          <ItemLatest id="8"  type="Shirt" title='Urban Revivo relaxed shirt' price='240.99' src="/shirt1.png" alt="item 5" />
+          <ItemLatest id="7"  type="Shirt" title='Topshop cotton casual shirt in ivory' price='240.99' src="shirt.jpeg" alt="item 4" />
+          <ItemLatest id="8"  type="Shirt" title='Urban Revivo relaxed shirt' price='240.99' src="shirt1.png" alt="item 5" />
           <ItemLatest id="9"  type="Shirt" title='ASOS DESIGN oversized shirt in black dobby' price='240.99' src="/shirt2.jpeg" alt="item 6" />
           <ItemLatest id="10" type="Shirt" title='River Island peplum satin top in pink' price='240.99' src="/shirt3.jpeg" alt="item 8" />
           <ItemLatest id="11" type="Shirt" title='Only cheesecloth button down shirt co-ord in beige' price='240.99' src="/shirt4.jpeg" alt="item 1" />
