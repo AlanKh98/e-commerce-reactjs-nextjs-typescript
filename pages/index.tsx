@@ -175,15 +175,15 @@ export default function Home() {
         >
           <ItemLatest id="7"  type="Shirt" title='Topshop cotton casual shirt in ivory' price='240.99' src="shirt.jpeg" alt="item 4" />
           <ItemLatest id="8"  type="Shirt" title='Urban Revivo relaxed shirt' price='240.99' src="shirt1.png" alt="item 5" />
-          <ItemLatest id="9"  type="Shirt" title='ASOS DESIGN oversized shirt in black dobby' price='240.99' src="/shirt2.jpeg" alt="item 6" />
-          <ItemLatest id="10" type="Shirt" title='River Island peplum satin top in pink' price='240.99' src="/shirt3.jpeg" alt="item 8" />
-          <ItemLatest id="11" type="Shirt" title='Only cheesecloth button down shirt co-ord in beige' price='240.99' src="/shirt4.jpeg" alt="item 1" />
-          <ItemLatest id="12" type="Shirt" title='COLLUSION Y2K wrap shirt in light blue' price='240.99' src="/shirt5.jpeg" alt="item 2" />
-          <ItemLatest id="13" type="Shirt" title='River Island twist front shirt in orange' price='240.99' src="/shirt6.jpeg" alt="item 6" />
-          <ItemLatest id="14" type="Shirt" title='River Island paisley ruffle blouse in pink' price='240.99' src="/shirt7.jpeg" alt="item 8" />
-          <ItemLatest id="15" type="Shirt" title='River Island Plus tile print kimono top in blue' price='240.99' src="/shirt8.jpeg" alt="item 1" />
-          <ItemLatest id="16" type="Shirt" title='New Look lettuce edge t-shirt in white' price='240.99' src="/shirt9.jpeg" alt="item 2" />
-          <ItemLatest id="17" type="Shirt" title='Topshop cotton casual shirt' price='240.99' src="/shirt10.jpeg" alt="item 2" />
+          <ItemLatest id="9"  type="Shirt" title='ASOS DESIGN oversized shirt in black dobby' price='240.99' src="shirt2.jpeg" alt="item 6" />
+          <ItemLatest id="10" type="Shirt" title='River Island peplum satin top in pink' price='240.99' src="shirt3.jpeg" alt="item 8" />
+          <ItemLatest id="11" type="Shirt" title='Only cheesecloth button down shirt co-ord in beige' price='240.99' src="shirt4.jpeg" alt="item 1" />
+          <ItemLatest id="12" type="Shirt" title='COLLUSION Y2K wrap shirt in light blue' price='240.99' src="shirt5.jpeg" alt="item 2" />
+          <ItemLatest id="13" type="Shirt" title='River Island twist front shirt in orange' price='240.99' src="shirt6.jpeg" alt="item 6" />
+          <ItemLatest id="14" type="Shirt" title='River Island paisley ruffle blouse in pink' price='240.99' src="shirt7.jpeg" alt="item 8" />
+          <ItemLatest id="15" type="Shirt" title='River Island Plus tile print kimono top in blue' price='240.99' src="shirt8.jpeg" alt="item 1" />
+          <ItemLatest id="16" type="Shirt" title='New Look lettuce edge t-shirt in white' price='240.99' src="shirt9.jpeg" alt="item 2" />
+          <ItemLatest id="17" type="Shirt" title='Topshop cotton casual shirt' price='240.99' src="shirt10.jpeg" alt="item 2" />
 
         </ItemCarousel>
       </div>
@@ -212,13 +212,13 @@ export default function Home() {
           dotListClass="custom-dot-list-style"
           itemClass="carousel-item-padding-40-px"
         >
-          <ItemLatest id="18" type="Shoe" title='adidas Originals Campus trainers in off white' price='89.99' src="/shoes.jpeg" alt="item 4" />
-          <ItemLatest id="19" type="Shoe" title='adidas Originals Ozweego trainers in beige' price='69.99' src="/shoes1.jpeg" alt="item 5" />
-          <ItemLatest id="20" type="Shoe" title='HUGO Kilian Tenn Pume trainers in white and green' price='39.99' src="/shoes2.jpeg" alt="item 6" />
-          <ItemLatest id="21" type="Shoe" title='Asics Running Gel-Kayano 29 trainers in deep purple and navy' price='25.99' src="/shoes3.jpeg" alt="item 8" />
-          <ItemLatest id="22" type="Shoe" title='adidas Originals Forum Bold trainers' price='20.99' src="/shoes4.jpeg" alt="item 1" />
-          <ItemLatest id="23" type="Shoe" title='ASOS DESIGN Mingle chain loafers in tan' price='40.99' src="/shoes5.jpg" alt="item 2" />
-          <ItemLatest id="24" type="Shoe" title='Topshop Nancy strappy toe post mid heeled sandal in silver croc' price='19.99' src="/shoes6.jpg" alt="item 6" />
+          <ItemLatest id="18" type="Shoe" title='adidas Originals Campus trainers in off white' price='89.99' src="shoes.jpeg" alt="item 4" />
+          <ItemLatest id="19" type="Shoe" title='adidas Originals Ozweego trainers in beige' price='69.99' src="shoes1.jpeg" alt="item 5" />
+          <ItemLatest id="20" type="Shoe" title='HUGO Kilian Tenn Pume trainers in white and green' price='39.99' src="shoes2.jpeg" alt="item 6" />
+          <ItemLatest id="21" type="Shoe" title='Asics Running Gel-Kayano 29 trainers in deep purple and navy' price='25.99' src="shoes3.jpeg" alt="item 8" />
+          <ItemLatest id="22" type="Shoe" title='adidas Originals Forum Bold trainers' price='20.99' src="shoes4.jpeg" alt="item 1" />
+          <ItemLatest id="23" type="Shoe" title='ASOS DESIGN Mingle chain loafers in tan' price='40.99' src="shoes5.jpg" alt="item 2" />
+          <ItemLatest id="24" type="Shoe" title='Topshop Nancy strappy toe post mid heeled sandal in silver croc' price='19.99' src="shoes6.jpg" alt="item 6" />
 
         </ItemCarousel>
       </div>
@@ -247,12 +247,12 @@ export default function Home() {
           dotListClass="custom-dot-list-style"
           itemClass="carousel-item-padding-40-px"
         >
-          <ItemLatest id="25" type="Bag" title='adidas Originals bumbag in black' price='99.99'  src="/bag.png" alt="item 4" />
-          <ItemLatest id="26" type="Bag" title='ASOS DESIGN clutch with 3D flowers in pink' price='55.99'  src="/bag1.png" alt="item 5" />
-          <ItemLatest id="27" type="Bag" title='River Island embossed croc satchel in white' price='40.99'  src="/bag2.png" alt="item 6" />
-          <ItemLatest id="28" type="Bag" title='ASOS DESIGN suede roll top clutch in pink' price='45.99'  src="/bag3.png" alt="item 8" />
-          <ItemLatest id="29" type="Bag" title='ASOS DESIGN easy tote in black' price='74.99'  src="/bag4.png" alt="item 1" />
-          <ItemLatest id="30" type="Bag" title='Topshop Jordan fringe canvas bag in cream' price='25.99'  src="/bag5.png" alt="item 2" />
+          <ItemLatest id="25" type="Bag" title='adidas Originals bumbag in black' price='99.99'  src="bag.png" alt="item 4" />
+          <ItemLatest id="26" type="Bag" title='ASOS DESIGN clutch with 3D flowers in pink' price='55.99'  src="bag1.png" alt="item 5" />
+          <ItemLatest id="27" type="Bag" title='River Island embossed croc satchel in white' price='40.99'  src="bag2.png" alt="item 6" />
+          <ItemLatest id="28" type="Bag" title='ASOS DESIGN suede roll top clutch in pink' price='45.99'  src="bag3.png" alt="item 8" />
+          <ItemLatest id="29" type="Bag" title='ASOS DESIGN easy tote in black' price='74.99'  src="bag4.png" alt="item 1" />
+          <ItemLatest id="30" type="Bag" title='Topshop Jordan fringe canvas bag in cream' price='25.99'  src="bag5.png" alt="item 2" />
 
         </ItemCarousel>
       </div>

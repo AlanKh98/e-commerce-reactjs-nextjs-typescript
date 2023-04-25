@@ -10,7 +10,7 @@ export default function SectionTwo() {
                 <h1 className={styles.endTag}>,,</h1>
             </div>
             <div className={styles.rightTwo}>
-                <img src='/Online.png' alt='Online' />
+                <img src='Online.png' alt='Online' />
             </div>
         </div>
     )
