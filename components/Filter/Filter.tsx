@@ -13,7 +13,7 @@ const Filter = (props:ChildProps) =>{
  
     return(
         <div className={styles.filter}>
-            <h2 className={styles.logo}><img className={styles.imgLogo} src='/Leave.png' alt='' /></h2>
+            <h2 className={styles.logo}><img className={styles.imgLogo} src='Leave.png' alt='' /></h2>
             <div className={styles.searchInput}>
                 <input placeholder="Enter a product name" type="text" onChange={(e) => {setSearchInput(e.target.value);props.toggleState(e.target.value,cityInput);}} />
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">

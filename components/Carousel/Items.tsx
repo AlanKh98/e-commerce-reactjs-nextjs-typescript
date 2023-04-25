@@ -25,11 +25,11 @@ const Caro = ()=> {
 
       const LatestCarousel = [
         {id:"100",type:"Mobile",title:'xiaomi X4 pro', price:'240.99',  src:"https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-poco-x4-pro-1.jpg", alt:"item 4"},
-        {id:"25", type:"Bag",title:'adidas Originals bumbag in black', price:'255.99',  src:"/bag.png" ,alt:"item 5"},
-        {id:"1" ,type:"Cloth",title:'JBL Original Jacket', price:'299.99',  src:"/jacket.png", alt:"item 6"},
-        {id:"30" ,type:"Bag",title:'ASOS DESIGN suede roll top clutch in pink', price:'260.99', src:"/bag5.png", alt:"item 8"},
+        {id:"25", type:"Bag",title:'adidas Originals bumbag in black', price:'255.99',  src:"bag.png" ,alt:"item 5"},
+        {id:"1" ,type:"Cloth",title:'JBL Original Jacket', price:'299.99',  src:"jacket.png", alt:"item 6"},
+        {id:"30" ,type:"Bag",title:'ASOS DESIGN suede roll top clutch in pink', price:'260.99', src:"bag5.png", alt:"item 8"},
         {id:"101",type:"Mobile",title:'realme pro 10+', price:'220.99',  src:"https://fdn2.gsmarena.com/vv/pics/realme/realme-10-pro-plus-1.jpg", alt:"item 1"},
-        {id:"19" ,type:"Shoe",title:'Shoes by Adidas', price:'69.99', src:"/shoes1.jpeg", alt:"item 2"}
+        {id:"19" ,type:"Shoe",title:'Shoes by Adidas', price:'69.99', src:"shoes1.jpeg", alt:"item 2"}
         ]
 
     return(

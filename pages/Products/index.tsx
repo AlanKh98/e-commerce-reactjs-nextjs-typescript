@@ -54,7 +54,7 @@ export default function Products() {
                 {
                     data.map((it,i) =>{
                         return<div className={styles.itemContainer} key={i}>
-                            <ItemLatest src={it.src} alt={it.alt} title={it.title} price={it.price}/>
+                            <ItemLatest id={it.id} src={it.src} alt={it.alt} title={it.title} price={it.price}/>
                         </div>
                     })
                 }
