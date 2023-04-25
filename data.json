@@ -148,7 +148,7 @@
         "title":"The North Face Nuptse cropped down jacket",
         "price":240.99,
         "type":"Cloth",
-        "src":"/jacket.png",
+        "src":"jacket.png",
         "description":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, id. Qui, illum. Fuga perferendis sint itaque possimus earum maxime expedita amet eligendi? Eligendi earum nam vero obcaecati voluptas placeat cum.",
         "alt":"item 4"
     },
@@ -158,7 +158,7 @@
         "price":240.99,
         "type":"Cloth",
         "description":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, id. Qui, illum. Fuga perferendis sint itaque possimus earum maxime expedita amet eligendi? Eligendi earum nam vero obcaecati voluptas placeat cum.",
-        "src":"/jacket1.png",
+        "src":"jacket1.png",
         "alt":"item 5"},
     {
         "id":"3",
@@ -166,14 +166,14 @@
         "price":240.99,  
         "type":"Cloth",
         "description":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, id. Qui, illum. Fuga perferendis sint itaque possimus earum maxime expedita amet eligendi? Eligendi earum nam vero obcaecati voluptas placeat cum.",
-        "src":"/jacket2.png", 
+        "src":"jacket2.png", 
         "alt":"item 6"},
     {
         "id":"4",
         "title":"Barney Originals Clara real leather jacket", 
         "price":240.99, 
         "type":"Cloth", 
-        "src":"/jacket3.png", 
+        "src":"jacket3.png", 
         "description":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, id. Qui, illum. Fuga perferendis sint itaque possimus earum maxime expedita amet eligendi? Eligendi earum nam vero obcaecati voluptas placeat cum.",
         "alt":"item 8"
     },
@@ -183,7 +183,7 @@
         "price":240.99,  
         "type":"Cloth",
         "description":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, id. Qui, illum. Fuga perferendis sint itaque possimus earum maxime expedita amet eligendi? Eligendi earum nam vero obcaecati voluptas placeat cum.",
-        "src":"/jacket4.png", 
+        "src":"jacket4.png", 
         "alt":"item 1"
     },
     {
@@ -192,7 +192,7 @@
         "price":240.99,  
         "type":"Cloth",
         "description":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, id. Qui, illum. Fuga perferendis sint itaque possimus earum maxime expedita amet eligendi? Eligendi earum nam vero obcaecati voluptas placeat cum.",
-        "src":"/jacket5.png", 
+        "src":"jacket5.png", 
         "alt":"item 2"
     },
     {
@@ -200,7 +200,7 @@
         "title":"Topshop cotton casual shirt in ivory", 
         "price":240.99 ,
         "type":"Shirt",
-        "src":"/shirt.jpeg" ,
+        "src":"shirt.jpeg" ,
         "description":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, id. Qui, illum. Fuga perferendis sint itaque possimus earum maxime expedita amet eligendi? Eligendi earum nam vero obcaecati voluptas placeat cum.",
         "alt":"item 4"
     },
@@ -210,7 +210,7 @@
         "title":"New Look lettuce edge t-shirt in white", 
         "price":240.99 ,
         "description":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, id. Qui, illum. Fuga perferendis sint itaque possimus earum maxime expedita amet eligendi? Eligendi earum nam vero obcaecati voluptas placeat cum.",
-        "src":"/shirt9.jpeg" ,
+        "src":"shirt9.jpeg" ,
         "alt":"item 2"
     },
     {
@@ -219,7 +219,7 @@
         "title":"Urban Revivo relaxed shirt" ,
         "price":240.99 ,
         "description":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, id. Qui, illum. Fuga perferendis sint itaque possimus earum maxime expedita amet eligendi? Eligendi earum nam vero obcaecati voluptas placeat cum.",
-        "src":"/shirt1.png" ,
+        "src":"shirt1.png" ,
         "alt":"item 5"
     },
     {
@@ -227,7 +227,7 @@
         "type":"Shirt",
         "title":"ASOS DESIGN oversized shirt in black dobby", 
         "price":240.99 ,
-        "src":"/shirt2.jpeg", 
+        "src":"shirt2.jpeg", 
         "description":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, id. Qui, illum. Fuga perferendis sint itaque possimus earum maxime expedita amet eligendi? Eligendi earum nam vero obcaecati voluptas placeat cum.",
         "alt":"item 6"
     },
@@ -237,14 +237,14 @@
         "price":110.99,  
         "type":"Cloth",
         "description":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, id. Qui, illum. Fuga perferendis sint itaque possimus earum maxime expedita amet eligendi? Eligendi earum nam vero obcaecati voluptas placeat cum.",
-        "src":"/jacket2.png", 
+        "src":"jacket2.png", 
         "alt":"item 6"},
     {
         "id":"10", 
         "type":"Shirt",
         "title":"River Island peplum satin top in pink", 
         "price":240.99 ,
-        "src":"/shirt3.jpeg", 
+        "src":"shirt3.jpeg", 
         "description":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, id. Qui, illum. Fuga perferendis sint itaque possimus earum maxime expedita amet eligendi? Eligendi earum nam vero obcaecati voluptas placeat cum.",
         "alt":"item 8"
     },
@@ -254,7 +254,7 @@
         "price":240.99 ,
         "type":"Shirt",
         "description":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, id. Qui, illum. Fuga perferendis sint itaque possimus earum maxime expedita amet eligendi? Eligendi earum nam vero obcaecati voluptas placeat cum.",
-        "src":"/shirt4.jpeg" ,
+        "src":"shirt4.jpeg" ,
         "alt":"item 1"
     },
     {
@@ -262,7 +262,7 @@
         "title":"COLLUSION Y2K wrap shirt in light blue", 
         "price":240.99 ,
         "type":"Shirt",
-        "src":"/shirt5.jpeg" ,
+        "src":"shirt5.jpeg" ,
         "description":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, id. Qui, illum. Fuga perferendis sint itaque possimus earum maxime expedita amet eligendi? Eligendi earum nam vero obcaecati voluptas placeat cum.",
         "alt":"item 2"
     },
@@ -272,7 +272,7 @@
         "title":"River Island twist front shirt in orange" ,
         "price":240.99 ,
         "description":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, id. Qui, illum. Fuga perferendis sint itaque possimus earum maxime expedita amet eligendi? Eligendi earum nam vero obcaecati voluptas placeat cum.",
-        "src":"/shirt6.jpeg", 
+        "src":"shirt6.jpeg", 
         "alt":"item 6"
     },
     {
@@ -280,7 +280,7 @@
         "type":"Shirt",
         "title":"River Island paisley ruffle blouse in pink", 
         "price":240.99 ,
-        "src":"/shirt7.jpeg" ,
+        "src":"shirt7.jpeg" ,
         "description":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, id. Qui, illum. Fuga perferendis sint itaque possimus earum maxime expedita amet eligendi? Eligendi earum nam vero obcaecati voluptas placeat cum.",
         "alt":"item 8"
     },
@@ -290,7 +290,7 @@
         "title":"River Island Plus tile print kimono top in blue" , 
         "price":240.99, 
         "description":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, id. Qui, illum. Fuga perferendis sint itaque possimus earum maxime expedita amet eligendi? Eligendi earum nam vero obcaecati voluptas placeat cum.",
-        "src":"/shirt8.jpeg" ,
+        "src":"shirt8.jpeg" ,
         "alt":"item 1"
     },
     {
@@ -299,7 +299,7 @@
         "title":"New Look lettuce edge t-shirt in white", 
         "price":240.99 ,
         "description":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, id. Qui, illum. Fuga perferendis sint itaque possimus earum maxime expedita amet eligendi? Eligendi earum nam vero obcaecati voluptas placeat cum.",
-        "src":"/shirt9.jpeg" ,
+        "src":"shirt9.jpeg" ,
         "alt":"item 2"
     },
     {
@@ -308,7 +308,7 @@
         "price":240.99,  
         "type":"Cloth",
         "description":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, id. Qui, illum. Fuga perferendis sint itaque possimus earum maxime expedita amet eligendi? Eligendi earum nam vero obcaecati voluptas placeat cum.",
-        "src":"/jacket4.png", 
+        "src":"jacket4.png", 
         "alt":"item 1"
     },
     {
@@ -317,7 +317,7 @@
         "title":"Topshop cotton casual shirt", 
         "description":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, id. Qui, illum. Fuga perferendis sint itaque possimus earum maxime expedita amet eligendi? Eligendi earum nam vero obcaecati voluptas placeat cum.",
         "price":240.99, 
-        "src":"/shirt10.jpeg", 
+        "src":"shirt10.jpeg", 
         "alt":"item 2"
     },
     {
@@ -326,7 +326,7 @@
         "title":"adidas Originals Campus trainers in off white", 
         "description":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, id. Qui, illum. Fuga perferendis sint itaque possimus earum maxime expedita amet eligendi? Eligendi earum nam vero obcaecati voluptas placeat cum.",
         "price":89.99, 
-        "src":"/shoes.jpeg", 
+        "src":"shoes.jpeg", 
         "alt":"item 2"
     },
     {
@@ -335,7 +335,7 @@
         "title":"adidas Originals Ozweego trainers in beige", 
         "description":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, id. Qui, illum. Fuga perferendis sint itaque possimus earum maxime expedita amet eligendi? Eligendi earum nam vero obcaecati voluptas placeat cum.",
         "price":69.99, 
-        "src":"/shoes1.jpeg", 
+        "src":"shoes1.jpeg", 
         "alt":"item 2"
     },
     {
@@ -344,7 +344,7 @@
         "title":"HUGO Kilian Tenn Pume trainers in white and green", 
         "description":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, id. Qui, illum. Fuga perferendis sint itaque possimus earum maxime expedita amet eligendi? Eligendi earum nam vero obcaecati voluptas placeat cum.",
         "price":39.99, 
-        "src":"/shoes2.jpeg", 
+        "src":"shoes2.jpeg", 
         "alt":"item 2"
     },
     {
@@ -353,7 +353,7 @@
         "title":"Asics Running Gel-Kayano 29 trainers in deep purple and navy", 
         "description":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, id. Qui, illum. Fuga perferendis sint itaque possimus earum maxime expedita amet eligendi? Eligendi earum nam vero obcaecati voluptas placeat cum.",
         "price":25.99, 
-        "src":"/shoes3.jpeg", 
+        "src":"shoes3.jpeg", 
         "alt":"item 2"
     },
     {
@@ -362,7 +362,7 @@
         "title":"adidas Originals Forum Bold trainers", 
         "description":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, id. Qui, illum. Fuga perferendis sint itaque possimus earum maxime expedita amet eligendi? Eligendi earum nam vero obcaecati voluptas placeat cum.",
         "price":20.99, 
-        "src":"/shoes4.jpeg", 
+        "src":"shoes4.jpeg", 
         "alt":"item 2"
     },
     {
@@ -371,7 +371,7 @@
         "title":"ASOS DESIGN Mingle chain loafers in tan", 
         "description":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, id. Qui, illum. Fuga perferendis sint itaque possimus earum maxime expedita amet eligendi? Eligendi earum nam vero obcaecati voluptas placeat cum.",
         "price":40.99, 
-        "src":"/shoes5.jpg", 
+        "src":"shoes5.jpg", 
         "alt":"item 2"
     },
     {
@@ -380,7 +380,7 @@
         "title":"Topshop Nancy strappy toe post mid heeled sandal in silver croc", 
         "description":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, id. Qui, illum. Fuga perferendis sint itaque possimus earum maxime expedita amet eligendi? Eligendi earum nam vero obcaecati voluptas placeat cum.",
         "price":19.99, 
-        "src":"/shoes6.jpg", 
+        "src":"shoes6.jpg", 
         "alt":"item 2"
     },
     {
@@ -389,7 +389,7 @@
         "title":"adidas Originals bumbag in black", 
         "description":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, id. Qui, illum. Fuga perferendis sint itaque possimus earum maxime expedita amet eligendi? Eligendi earum nam vero obcaecati voluptas placeat cum.",
         "price":99.99, 
-        "src":"/bag.png", 
+        "src":"bag.png", 
         "alt":"item 2"
     },
     {
@@ -398,7 +398,7 @@
         "title":"ASOS DESIGN clutch with 3D flowers in pink", 
         "description":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, id. Qui, illum. Fuga perferendis sint itaque possimus earum maxime expedita amet eligendi? Eligendi earum nam vero obcaecati voluptas placeat cum.",
         "price":55.99, 
-        "src":"/bag1.png", 
+        "src":"bag1.png", 
         "alt":"item 2"
     },
     {
@@ -407,7 +407,7 @@
         "title":"River Island embossed croc satchel in white", 
         "description":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, id. Qui, illum. Fuga perferendis sint itaque possimus earum maxime expedita amet eligendi? Eligendi earum nam vero obcaecati voluptas placeat cum.",
         "price":40.99, 
-        "src":"/bag2.png", 
+        "src":"bag2.png", 
         "alt":"item 2"
     },
     {
@@ -416,7 +416,7 @@
         "title":"ASOS DESIGN suede roll top clutch in pink", 
         "description":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, id. Qui, illum. Fuga perferendis sint itaque possimus earum maxime expedita amet eligendi? Eligendi earum nam vero obcaecati voluptas placeat cum.",
         "price":45.99, 
-        "src":"/bag3.png", 
+        "src":"bag3.png", 
         "alt":"item 2"
     },
     {
@@ -425,7 +425,7 @@
         "title":"ASOS DESIGN easy tote in black", 
         "description":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, id. Qui, illum. Fuga perferendis sint itaque possimus earum maxime expedita amet eligendi? Eligendi earum nam vero obcaecati voluptas placeat cum.",
         "price":74.99, 
-        "src":"/bag4.png", 
+        "src":"bag4.png", 
         "alt":"item 2"
     },
     {
@@ -434,7 +434,7 @@
         "title":"Topshop Jordan fringe canvas bag in cream", 
         "description":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, id. Qui, illum. Fuga perferendis sint itaque possimus earum maxime expedita amet eligendi? Eligendi earum nam vero obcaecati voluptas placeat cum.",
         "price":25.99, 
-        "src":"/bag5.png", 
+        "src":"bag5.png", 
         "alt":"item 2"
     }
     ]
