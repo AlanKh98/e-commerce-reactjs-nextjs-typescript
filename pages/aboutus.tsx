@@ -10,7 +10,7 @@ export default function About() {
         <div className={styles.about}>
             <Header />
             <SectionOne />
-            <img className={styles.imgAbout} src='/Communication.jpeg' alt='' />
+            <img className={styles.imgAbout} src='Communication.jpeg' alt='' />
             <SectionFour />
             <SectionTwo />
             <Footer />
