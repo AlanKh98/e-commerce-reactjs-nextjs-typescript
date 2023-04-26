@@ -7,8 +7,8 @@ export default function SectionOne() {
             <div className={styles.imgSec}>
                 <img
                     className={styles.itemImage}
-                    src={'/daniel.jpg'}
-                    alt={"alt"}
+                    src='/daniel.jpg'
+                    alt="alt"
                 />
             </div>
             <div className={styles.firstSectionColor}>
