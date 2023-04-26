@@ -17,6 +17,7 @@ interface Order {
 }
 
 export default function Products() {
+    
     const [searchInput, setSearchInput] = useState(String);
     const [cityInput, setInputCity] = useState(String);
     const [data,setData] = useState<Order[]>(myData);
@@ -52,11 +53,11 @@ export default function Products() {
             <Filter toggleState={(search,city) => toggleState(search,city)} />
             <div className={styles.productsView}>
                 {
-                    data.map((it,i) =>{
+                    data?data.map((it,i) =>{
                         return<div className={styles.itemContainer} key={i}>
                             <ItemLatest id={it.id} src={it.src} alt={it.alt} title={it.title} price={it.price}/>
                         </div>
-                    })
+                    }):[]
                 }
             </div>
             <Footer />

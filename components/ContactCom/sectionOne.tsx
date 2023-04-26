@@ -4,13 +4,15 @@ import Image from 'next/image'
 export default function SectionOne() {
     return(
         <div className={styles.firstSection}>
-            <Image
-                className={styles.itemImage}
-                src={'/daniel.jpg'}
-                alt={"alt"}
-                loading="eager"
-                fill
-            />
+            <div className={styles.imgSec}>
+                <Image
+                    className={styles.itemImage}
+                    src={'/daniel.jpg'}
+                    alt={"alt"}
+                    loading="eager"
+                    fill
+                />
+            </div>
             <div className={styles.firstSectionColor}>
                 <h1 className={styles.titleContainer}>CONTACT US</h1>
                 <svg xmlns="http://www.w3.org/2000/svg" onClick={() => history.back()} fill="currentColor" className={styles.svgEdited} viewBox="0 0 16 16">

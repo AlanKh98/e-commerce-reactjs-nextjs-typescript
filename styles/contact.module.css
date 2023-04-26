@@ -13,6 +13,12 @@
   height: 80vh;
   width: 100%;
   margin: 0 auto;
+  position: relative;
+}
+.imgSec {
+  position: absolute;
+  height: 80vh;
+  width: 100%;
 }
 .firstSectionColor {
   width: 100%;

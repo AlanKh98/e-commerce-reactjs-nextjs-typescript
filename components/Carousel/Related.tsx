@@ -8,6 +8,7 @@ type Props = {
   itemType:string;
 }
 const Caro = (props:Props)=> {
+  const data = Data;
     const responsive = {
         superLargeDesktop: {
           breakpoint: { max: 4000, min: 3000 },
@@ -52,7 +53,7 @@ const Caro = (props:Props)=> {
           itemClass="carousel-item-padding-40-px"
         >
         {
-            Data.filter(it => it.type==props.itemType)
+            data.filter(it => it.type==props.itemType)
             .map((it,i) => (
               <ItemLatest key={i} id={it.id} title={it.title} price={it.price} src={it.src} alt={it.alt} />
             ))
