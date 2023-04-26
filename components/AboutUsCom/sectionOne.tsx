@@ -3,6 +3,9 @@ import styles from '../../styles/aboutus.module.css'
 export default function SectionOne() {
     return(
         <div className={styles.sectionOne}>
+            <div className={styles.imgSec}>
+                <img src='daniel.jpg' alt='' />
+            </div>
             <div className={styles.left}>
                 <h3>About us.</h3>
                 <h3>Our Team.</h3>
