@@ -71,13 +71,7 @@ export default function Home() {
         {
           carouselImage.map((it,i)=>{
           return<div key={i}>
-              <Image
-                src={`/${it.src}`}
-                alt={it.alt}
-                loading="eager"
-                fill
-              />
-                  {/* <Image src={'/'+it.src} alt={it.alt} /> */}
+                  <img src={'/'+it.src} alt={it.alt} />
                 </div>
           })
         }

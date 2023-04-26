@@ -3,7 +3,6 @@ import Header from '../../components/Header/Header'
 import styles from '../../styles/Products.module.css'
 import LatestItems from '../../components/Carousel/Items'
 import RelatedItems from '../../components/Carousel/Related'
-import Image from 'next/image'
 import Data from '../../data.json';
 import { useRouter } from 'next/router';
 import "react-multi-carousel/lib/styles.css";
@@ -51,7 +50,7 @@ export default function View() {
                     </div>
                 </div>
                 <div className={styles.imgViewCon}>
-                    <img className={styles.itemImage} src={Item.src} alt={Item.alt} />
+                    <img className={styles.itemImage} src={'/'+Item.src} alt={Item.alt} />
                 </div>
             </div>
             <RelatedItems itemType={Item.type}/>

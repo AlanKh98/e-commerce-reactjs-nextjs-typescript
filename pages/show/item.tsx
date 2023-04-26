@@ -20,15 +20,7 @@ export default function itemShow({id,src,title,description,price}:data) {
     const dispatch = useDispatch();
     return(
         <div className={styles.CartItemCon}>
-             <Image
-                className={styles.cartItemImgCon}
-                src={'/'+src}
-                alt={''}
-                loading="eager"
-                width={200}
-                height={200}
-            />
-            {/* <img className={styles.cartItemImgCon} src={src} alt='' /> */}
+            <img className={styles.cartItemImgCon} src={'/'+src} alt='' />
             <div className={styles.cartItemDetailCon}>
                 <h2>{title}</h2>
                 <p>{description}</p>
