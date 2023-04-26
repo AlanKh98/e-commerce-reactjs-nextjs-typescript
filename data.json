@@ -5,7 +5,7 @@
         "price":270,
         "description":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, id. Qui, illum. Fuga perferendis sint itaque possimus earum maxime expedita amet eligendi? Eligendi earum nam vero obcaecati voluptas placeat cum.",
         "type":"Mobile",
-        "src":"https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-poco-x4-pro-1.jpg",
+        "src":"xiaomi-poco-x4-pro-1.jpg",
         "alt":"Note10 Pro"
     },
     {
@@ -14,8 +14,8 @@
         "price":510,
         "description":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, id. Qui, illum. Fuga perferendis sint itaque possimus earum maxime expedita amet eligendi? Eligendi earum nam vero obcaecati voluptas placeat cum.",
         "type":"Mobile",
-        "src":"https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-redmi-note-11-pro-global-0.jpg",
-        "alt":"Honor X9a"
+        "src":"xiaomi-redmi-note-11-pro-global-0.jpg",
+        "alt":"xiaomi Note 11 pro"
     },
     {
         "id":"1224",
@@ -23,8 +23,8 @@
         "price":200,
         "description":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, id. Qui, illum. Fuga perferendis sint itaque possimus earum maxime expedita amet eligendi? Eligendi earum nam vero obcaecati voluptas placeat cum.",
         "type":"Mobile",
-        "src":"https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-pocophone-f1-2.jpg",
-        "alt":"Honor X8a"
+        "src":"xiaomi-pocophone-f1-2.jpg",
+        "alt":"xiaomi Poco f1"
     },
     {
         "id":"1334",
@@ -32,7 +32,7 @@
         "price":1500,
         "description":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, id. Qui, illum. Fuga perferendis sint itaque possimus earum maxime expedita amet eligendi? Eligendi earum nam vero obcaecati voluptas placeat cum.",
         "type":"Mobile",
-        "src":"https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-13-pro-3.jpg",
+        "src":"apple-iphone-13-pro-3.jpg",
         "alt":"IPhone 13 Pro Max"
     },
     {
@@ -41,8 +41,8 @@
         "price":1200,
         "description":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, id. Qui, illum. Fuga perferendis sint itaque possimus earum maxime expedita amet eligendi? Eligendi earum nam vero obcaecati voluptas placeat cum.",
         "type":"Mobile",
-        "src":"https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-mi-11-lite-4g-1.jpg",
-        "alt":"IPhone 13"
+        "src":"xiaomi-mi-11-lite-4g-1.jpg",
+        "alt":"xiaomi mi 11"
     },
     {
         "id":"1244",
@@ -50,7 +50,7 @@
         "price":210,
         "description":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, id. Qui, illum. Fuga perferendis sint itaque possimus earum maxime expedita amet eligendi? Eligendi earum nam vero obcaecati voluptas placeat cum.",
         "type":"Mobile",
-        "src":"https://fdn2.gsmarena.com/vv/pics/realme/realme-10-pro-plus-1.jpg",
+        "src":"realme-10-pro-plus-1.jpg",
         "alt":"Note 11s"
     },
     {
@@ -59,7 +59,7 @@
         "price":310,
         "description":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, id. Qui, illum. Fuga perferendis sint itaque possimus earum maxime expedita amet eligendi? Eligendi earum nam vero obcaecati voluptas placeat cum.",
         "type":"Mobile",
-        "src":"https://fdn.gsmarena.com/imgroot/reviews/21/poco-x3-pro/lifestyle/-1200w5/gsmarena_001.jpg",
+        "src":"poco-x3-pro.jpg",
         "alt":"Poco F3"
     },
     {
@@ -68,7 +68,7 @@
         "price":170,
         "description":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, id. Qui, illum. Fuga perferendis sint itaque possimus earum maxime expedita amet eligendi? Eligendi earum nam vero obcaecati voluptas placeat cum.",
         "type":"Mobile",
-        "src":"https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-poco-m5s-2.jpg",
+        "src":"xiaomi-poco-m5s-2.jpg",
         "alt":"M5s"
     },
     {
@@ -77,7 +77,7 @@
         "price":370,
         "description":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, id. Qui, illum. Fuga perferendis sint itaque possimus earum maxime expedita amet eligendi? Eligendi earum nam vero obcaecati voluptas placeat cum.",
         "type":"Mobile",
-        "src":"https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-a70-1.jpg",
+        "src":"samsung-galaxy-a70-1.jpg",
         "alt":"A70"
     },
     {
@@ -86,7 +86,7 @@
         "price":1270,
         "description":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, id. Qui, illum. Fuga perferendis sint itaque possimus earum maxime expedita amet eligendi? Eligendi earum nam vero obcaecati voluptas placeat cum.",
         "type":"Mobile",
-        "src":"https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s23-ultra-5g-1.jpg",
+        "src":"samsung-galaxy-s23-ultra-5g-1.jpg",
         "alt":"S23 Ultra"
     },
     {
@@ -95,7 +95,7 @@
         "price":350,
         "description":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, id. Qui, illum. Fuga perferendis sint itaque possimus earum maxime expedita amet eligendi? Eligendi earum nam vero obcaecati voluptas placeat cum.",
         "type":"Mobile",
-        "src":"https://fdn2.gsmarena.com/vv/pics/samsung/galaxy-a52s-1.jpg",
+        "src":"galaxy-a52s-1.jpg",
         "alt":"A52s"
     },
     {
@@ -104,7 +104,7 @@
         "price":270,
         "description":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, id. Qui, illum. Fuga perferendis sint itaque possimus earum maxime expedita amet eligendi? Eligendi earum nam vero obcaecati voluptas placeat cum.",
         "type":"Mobile",
-        "src":"https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-a32-4g-3.jpg",
+        "src":"samsung-galaxy-a32-4g-3.jpg",
         "alt":"A32"
     },
     {
@@ -113,7 +113,7 @@
         "price":400,
         "description":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, id. Qui, illum. Fuga perferendis sint itaque possimus earum maxime expedita amet eligendi? Eligendi earum nam vero obcaecati voluptas placeat cum.",
         "type":"Mobile",
-        "src":"https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-mi-10-5g-1.jpg",
+        "src":"xiaomi-mi-10-5g-1.jpg",
         "alt":"Mi 10"
     },
     {
@@ -122,7 +122,7 @@
         "price":310,
         "description":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, id. Qui, illum. Fuga perferendis sint itaque possimus earum maxime expedita amet eligendi? Eligendi earum nam vero obcaecati voluptas placeat cum.",
         "type":"Mobile",
-        "src":"https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-redmi-note-12-turbo-1.jpg",
+        "src":"xiaomi-redmi-note-12-turbo-1.jpg",
         "alt":"Note12 Pro Max"
     },
     {
@@ -131,7 +131,7 @@
         "price":255,
         "description":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, id. Qui, illum. Fuga perferendis sint itaque possimus earum maxime expedita amet eligendi? Eligendi earum nam vero obcaecati voluptas placeat cum.",
         "type":"Mobile",
-        "src":"https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-redmi-note-11-pro-global-0.jpg",
+        "src":"xiaomi-redmi-note-11-pro-global-0.jpg",
         "alt":"Note11 Pro"
     },
     {
@@ -140,7 +140,7 @@
         "price":275,
         "description":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, id. Qui, illum. Fuga perferendis sint itaque possimus earum maxime expedita amet eligendi? Eligendi earum nam vero obcaecati voluptas placeat cum.",
         "type":"Mobile",
-        "src":"https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-redmi-note-11-global-1.jpg",
+        "src":"xiaomi-redmi-note-11-global-1.jpg",
         "alt":"Note 11"
     },
     {

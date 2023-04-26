@@ -109,6 +109,7 @@
   text-align: center;
   display: flex;
   justify-content: center;
+  position: relative;
 }
 .Caarousel div img {
   width: 100%;

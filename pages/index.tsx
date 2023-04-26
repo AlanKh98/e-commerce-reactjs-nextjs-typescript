@@ -4,6 +4,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 import Header from '../components/Header/Header'
 import styles from '../styles/Home.module.css'
+import Image from 'next/image'
 import Itemimg from "../components/ui/Itemimg";
 import LatestItems from '../components/Carousel/Items'
 import Sold from '../components/sold/Sold'
@@ -70,7 +71,13 @@ export default function Home() {
         {
           carouselImage.map((it,i)=>{
           return<div key={i}>
-                  <img src={it.src} alt={it.alt} />
+              <Image
+                src={'/'+it.src}
+                alt={it.alt}
+                loading="eager"
+                fill
+              />
+                  {/* <Image src={'/'+it.src} alt={it.alt} /> */}
                 </div>
           })
         }
@@ -104,12 +111,12 @@ export default function Home() {
           dotListClass="custom-dot-list-style"
           itemClass="carousel-item-padding-40-px"
         >
-          <Itemimg title='xiaomi X4 pro' type="Mobile" old='240.99' new='198.99' src="https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-poco-x4-pro-1.jpg" alt="item 4" />
-          <Itemimg title='xiaomi Note 11 pro' type="Mobile" old='240.99' new='198.99' src="https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-redmi-note-11-pro-global-0.jpg" alt="item 5" />
-          <Itemimg title='xiaomi Poco f1' type="Mobile" old='240.99' new='198.99' src="https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-pocophone-f1-2.jpg" alt="item 6" />
-          <Itemimg title='xiaomi mi 11 lite'type="Mobile"  old='240.99' new='198.99' src="https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-mi-11-lite-4g-1.jpg" alt="item 8" />
-          <Itemimg title='realme pro 10+' old='240.99' type="Mobile" new='198.99' src="https://fdn2.gsmarena.com/vv/pics/realme/realme-10-pro-plus-1.jpg" alt="item 1" />
-          <Itemimg title='xiaomi X3 pro' old='240.99' type="Mobile" new='198.99' src="https://fdn.gsmarena.com/imgroot/reviews/21/poco-x3-pro/lifestyle/-1200w5/gsmarena_001.jpg" alt="item 2" />
+          <Itemimg title='xiaomi X4 pro' type="Mobile" old='240.99' new='198.99' src="xiaomi-poco-x4-pro-1.jpg" alt="item 4" />
+          <Itemimg title='xiaomi Note 11 pro' type="Mobile" old='240.99' new='198.99' src="xiaomi-redmi-note-11-pro-global-0.jpg" alt="item 5" />
+          <Itemimg title='xiaomi Poco f1' type="Mobile" old='240.99' new='198.99' src="xiaomi-pocophone-f1-2.jpg" alt="item 6" />
+          <Itemimg title='xiaomi mi 11 lite'type="Mobile"  old='240.99' new='198.99' src="xiaomi-mi-11-lite-4g-1.jpg" alt="item 8" />
+          <Itemimg title='realme pro 10+' old='240.99' type="Mobile" new='198.99' src="realme-10-pro-plus-1.jpg" alt="item 1" />
+          <Itemimg title='xiaomi X3 pro' old='240.99' type="Mobile" new='198.99' src="poco-x3-pro.jpg" alt="item 2" />
 
         </ItemCarousel>
       </div>

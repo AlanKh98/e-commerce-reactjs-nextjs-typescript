@@ -1,6 +1,7 @@
 import styles from '../../styles/show.module.css'
 import { useDispatch } from 'react-redux';
 import {removeFavItem ,addFavItem} from '../../Cart/cartSlice';
+import Image from 'next/image'
 
 
 
@@ -19,7 +20,15 @@ export default function itemShow({id,src,title,description,price}:data) {
     const dispatch = useDispatch();
     return(
         <div className={styles.CartItemCon}>
-            <img className={styles.cartItemImgCon} src={src} alt='' />
+             <Image
+                className={styles.cartItemImgCon}
+                src={'/'+src}
+                alt={''}
+                loading="eager"
+                width={200}
+                height={200}
+            />
+            {/* <img className={styles.cartItemImgCon} src={src} alt='' /> */}
             <div className={styles.cartItemDetailCon}>
                 <h2>{title}</h2>
                 <p>{description}</p>
