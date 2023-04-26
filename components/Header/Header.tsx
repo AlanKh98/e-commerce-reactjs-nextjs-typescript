@@ -9,7 +9,7 @@ function header() {
     const cartItems = useSelector((store:any) => store.cart.cartItems.length);
     return(
         <div className={styles.header}>
-            <div className={styles.logo}><img className={styles.imgLogo} src='/Leave.png' alt='' /></div>
+            <div className={styles.logo}><img className={styles.imgLogo} src='./leave.png' alt='' /></div>
             <div className={styles.items}>
                 <div className={styles.pages}>
                     <ul>

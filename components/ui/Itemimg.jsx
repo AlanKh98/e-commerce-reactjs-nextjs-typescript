@@ -7,16 +7,7 @@ const Itemimg = (props) =>{
 
     return(
         <div className={styles.imgItem}>
-            <Image
-                className={styles.imgCenter}
-                src={'/'+props.src}
-                alt={props.alt}
-                loading="eager"
-                width={200}
-                height={200}
-                onClick={() =>goToView()}
-            />
-            {/* <img className={styles.imgCenter} src={props.src} alt={props.alt} /> */}
+            <img className={styles.imgCenter} src={props.src} alt={props.alt} />
             <ItemPrice title={props.title} old={props.old} new={props.new} />
         </div>
     )

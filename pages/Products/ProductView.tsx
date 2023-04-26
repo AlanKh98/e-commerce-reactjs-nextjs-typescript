@@ -51,15 +51,7 @@ export default function View() {
                     </div>
                 </div>
                 <div className={styles.imgViewCon}>
-                    <Image
-                        className={styles.itemImage}
-                        src={'/'+Item.src}
-                        alt={Item.alt}
-                        loading="eager"
-                        width={100}
-                        height={100}
-                    />
-                    {/* <img className={styles.itemImage} src={Item.src} alt={Item.alt} /> */}
+                    <img className={styles.itemImage} src={Item.src} alt={Item.alt} />
                 </div>
             </div>
             <RelatedItems itemType={Item.type}/>
