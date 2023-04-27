@@ -103,3 +103,27 @@
   border-radius: 50px;
   cursor: pointer;
 }
+@media only screen and (max-width: 800px) {
+  .imgItem {
+    height: 260px;
+    width: 50%;
+  }
+  .imgCenter {
+    height: 135px;
+  }
+  .imgItemPrice {
+    height: 65px;
+    text-transform: uppercase;
+    padding: 5px;
+  }
+  .productsDetail {
+    font-size: 12px;
+    height: 25px;
+  }
+  .latestPrice {
+    font-size: 14px;
+  }
+  .priceFaivCon {
+    padding-right: 5px;
+  }
+}

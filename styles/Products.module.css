@@ -93,3 +93,16 @@
   color: red;
   right: 0px;
 }
+
+@media only screen and (max-width: 1000px) {
+  .itemContainer {
+    width: 30%;
+    margin: 10px 5px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .itemContainer {
+    width: 45%;
+    margin: 10px 5px;
+  }
+}

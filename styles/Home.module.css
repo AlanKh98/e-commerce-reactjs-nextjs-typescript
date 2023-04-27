@@ -148,3 +148,13 @@
     text-shadow: none;
   }
 }
+@media only screen and (max-width: 800px) {
+  .Caarousel {
+    width: 90%;
+    height: 60%;
+    margin: 0 auto;
+  }
+  .groupTitle {
+    font-size: 16px;
+  }
+}

@@ -33,15 +33,12 @@ const Footer = () =>{
             </div>
             <div className={styles.footerDataCon}>
                 <div>
-                    <h2>CompanyName</h2>
+                    <h3>CompanyName</h3>
                     <h4>companyname@example.com</h4>
-                    <div>
-                        <p>New York, NY 10012,US</p>
-                        
-                    </div>
+                        <h4>New York,NY 10012,US</h4>
                 </div>
                 <div>
-                    <h3>Common Categories</h3>
+                    <h3>Categories</h3>
                     <ul>
                         <li>Men's Shoes</li>
                         <li>Sneakers</li>

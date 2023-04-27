@@ -4,7 +4,6 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 import Header from '../components/Header/Header'
 import styles from '../styles/Home.module.css'
-import Image from 'next/image'
 import Itemimg from "../components/ui/Itemimg";
 import LatestItems from '../components/Carousel/Items'
 import Sold from '../components/sold/Sold'
@@ -33,7 +32,7 @@ export default function Home() {
       items: 2,
     },
     mobile: {
-      breakpoint: { max: 464, min: 0 },
+      breakpoint: { max: 600, min: 0 },
       items: 1,
     },
   };
@@ -83,7 +82,7 @@ export default function Home() {
       <div className={styles.itemsGroup}>
         <div className={styles.dataContainer}>
           <h1 className={styles.groupTitle}>Trending Products</h1>
-          <h5>Load more</h5>
+           
         </div>
 
         <ItemCarousel
@@ -118,7 +117,7 @@ export default function Home() {
       <div className={styles.itemsGroup}>
         <div className={styles.dataContainer}>
           <h1 className={styles.groupTitle}>jackets</h1>
-          <h5>Load more</h5>
+           
         </div>
 
         <ItemCarousel
@@ -152,7 +151,7 @@ export default function Home() {
       <div className={styles.itemsGroup}>
         <div className={styles.dataContainer}>
           <h1 className={styles.groupTitle}>shirts</h1>
-          <h5>Load more</h5>
+           
         </div>
 
         <ItemCarousel
@@ -191,7 +190,7 @@ export default function Home() {
       <div className={styles.itemsGroup}>
         <div className={styles.dataContainer}>
           <h1 className={styles.groupTitle}>Shoes</h1>
-          <h5>Load more</h5>
+           
         </div>
 
         <ItemCarousel
@@ -226,7 +225,7 @@ export default function Home() {
       <div className={styles.itemsGroup}>
         <div className={styles.dataContainer}>
           <h1 className={styles.groupTitle}>bags</h1>
-          <h5>Load more</h5>
+           
         </div>
 
         <ItemCarousel

@@ -122,7 +122,13 @@
   border-radius: 50%;
 }
 .shop {
-  padding-top: 10px;
+  margin-top: 5px;
+  padding-top: 5px;
+  transform: rotate(-90deg);
+  transition: all 0.5s ease-in-out;
+}
+.headerPagesList:hover > .shop {
+  transform: rotate(0);
 }
 .headerPages,
 .headerPagesList {
@@ -195,5 +201,28 @@
 @media only screen and (max-width: 800px) {
   .icons {
     display: none;
+  }
+  .headerPages,
+  .headerPagesList {
+    font-size: 14px;
+    padding: 1vh;
+    margin: 5px;
+  }
+  .header {
+    height: 7vh;
+  }
+  .logo {
+    padding: 2px;
+    font-weight: bold;
+    color: #444444;
+    width: 10%;
+  }
+  .imgLogo {
+    width: 30px;
+    height: 30px;
+  }
+  .shop {
+    margin-top: 0px;
+    padding-top: 10px;
   }
 }

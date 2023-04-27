@@ -62,8 +62,12 @@
 .footerDataCon {
   padding: 35px 4%;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   background-color: #09974f;
+}
+.footerDataCon div {
+  width: 20%;
 }
 .footerDataCon ul {
   margin-left: 10px;
@@ -83,4 +87,10 @@
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   padding: 5px;
   margin-left: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+  .footerDataCon div {
+    width: 40%;
+  }
 }

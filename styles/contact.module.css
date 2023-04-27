@@ -9,7 +9,7 @@
   /* background-repeat: no-repeat;
   background-position: center;
   background-size: cover; */
-  height: 80vh;
+  height: 100vh;
   width: 100%;
   margin: 0 auto;
   position: relative;
@@ -18,10 +18,14 @@
   width: 100%;
   height: 100%;
 }
+.imgSec img {
+  width: 100%;
+  height: 100%;
+}
 .imgSec {
   position: absolute;
   top: 0;
-  height: 80vh;
+  height: 100vh;
   width: 100%;
 }
 .firstSectionColor {
@@ -71,7 +75,7 @@
   padding: 20px;
 }
 .contactItems {
-  padding: 20px 40px;
+  padding: 20px;
   text-align: center;
   width: 30%;
 }
@@ -167,4 +171,74 @@
 }
 .mainText {
   font-size: 22px;
+}
+
+@media only screen and (max-width: 800px) {
+  .secondSection h1 {
+    margin-top: 0%;
+    font-size: 24px;
+  }
+  .contactItemsContainer {
+    width: 98%;
+    margin: 10px auto;
+    padding: 0px;
+  }
+  .contactItems h3,
+  .contactItems h4 {
+    font-size: 14px;
+  }
+  .svgContact {
+    width: 30px;
+    height: 30px;
+  }
+  .contactItems {
+    padding: 10px 5px;
+  }
+  .howToCon {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 10px;
+  }
+  .leftSec {
+    padding: 5px 10px;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .rightSec {
+    margin: 0 auto;
+    width: 80%;
+    position: relative;
+  }
+  .subText,
+  .mainText {
+    color: gray;
+    font-size: 14px;
+  }
+  .sendMessageContainer {
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 5%;
+  }
+  .sendMessageContainer h2,
+  .contactItems h3 {
+    font-size: 18px;
+  }
+  .textInCon input,
+  .textInCon textarea {
+    font-size: 14px;
+    width: 90%;
+    height: 35px;
+    margin: 10px auto;
+  }
+  .textInCon textarea {
+    height: 140px;
+  }
+  .textInCon input::placeholder,
+  .textInCon textarea::placeholder {
+    font-size: 14px;
+    padding-top: 5px;
+    padding-left: 10px;
+  }
 }

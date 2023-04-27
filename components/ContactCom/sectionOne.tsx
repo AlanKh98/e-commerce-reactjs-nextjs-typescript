@@ -5,11 +5,7 @@ export default function SectionOne() {
     return(
         <div className={styles.firstSection}>
             <div className={styles.imgSec}>
-                <img
-                    className={styles.itemImage}
-                    src='/daniel.jpg'
-                    alt="alt"
-                />
+                <img src='daniel.jpg' alt='' />
             </div>
             <div className={styles.firstSectionColor}>
                 <h1 className={styles.titleContainer}>CONTACT US</h1>
