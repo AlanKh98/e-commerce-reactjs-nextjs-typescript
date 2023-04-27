@@ -31,7 +31,7 @@
 .firstSectionColor {
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.4);
   position: relative;
   /* color: #fff; */
   color: #09974f;
@@ -60,7 +60,7 @@
 /* Section Two */
 .secondSection {
   text-align: center;
-  margin: 12% 0 5%;
+  margin: 5% 0;
   width: 100%;
 }
 .secondSection h1 {
