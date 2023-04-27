@@ -15,7 +15,6 @@
   border-bottom: 2px solid rgb(148, 148, 148);
   margin-top: 20px;
   width: 100%;
-  height: 120px;
   display: flex;
 }
 .itemRemove {
@@ -26,7 +25,6 @@
   height: 100%;
   padding: 10px 30px;
   margin: auto;
-  /* background-color: rgba(255, 0, 0, 0.3); */
   color: rgba(255, 0, 0, 0.7);
 }
 .itemRemove h5 {
@@ -58,4 +56,39 @@
 .totalPriceText {
   font-size: 18px;
   font-weight: 400;
+}
+@media only screen and (max-width: 800px) {
+  .itemsContainer {
+    width: 95%;
+    margin: 0 auto;
+    height: fit-content;
+    margin-top: 1vh;
+  }
+  .itemRemove {
+    padding: 4px 10px;
+  }
+  .itemsContainer h1 {
+    width: 100%;
+    font-size: 18px;
+    padding: 15px 0;
+  }
+  .cartItemDetailCon p {
+    margin: 0 2px;
+    padding: 0 2px;
+    font-size: 12px;
+  }
+  .cartItemDetailCon h2 {
+    margin: 2px;
+    font-size: 14px;
+  }
+  .totalPrice {
+    width: 35%;
+    margin-left: 65%;
+  }
+  .totalPrice h3 {
+    font-size: 14px;
+  }
+  .totalPriceText {
+    font-size: 12px;
+  }
 }
