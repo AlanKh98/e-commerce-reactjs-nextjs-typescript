@@ -157,4 +157,19 @@
   .groupTitle {
     font-size: 16px;
   }
+  .items_Carousel {
+    width: 60%;
+    padding: 5px;
+    margin: 0 auto;
+  }
+  /* .Caarousel {
+    width: 90%;
+    height: 90vh;
+    margin: 0 auto;
+  } */
+  .itemsGroup {
+    width: 98%;
+    margin: 0 auto;
+    padding: 10px 0;
+  }
 }
